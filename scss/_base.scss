@@ -81,6 +81,7 @@ img {
     background: url("../imgs/bg.jpeg") no-repeat 80% center/cover;
     height: 100vh;
     // min-width: 100vw;
+    overflow: hidden;
 
     &::after {
       content: "";
@@ -89,8 +90,8 @@ img {
       width: 100%;
       height: 100%;
       // background: inherit;
-      background: rgba(0, 0, 0, 0.08);
-      backdrop-filter: blur(1.2px);
+      background: rgba(37, 1, 82, 0.2);
+      backdrop-filter: blur(1.15px);
       // filter: blur(1.5px);
       z-index: 1;
     }
@@ -110,6 +111,20 @@ img {
     }
   }
 }
+
+// @keyframes shooting {
+//   0% {
+//     transform: rotate(-45deg) translateX(0);
+//     opacity: 1;
+//   }
+//   70% {
+//     opacity: 1;
+//   }
+//   100% {
+//     transform: rotate(-45deg) translateX(1000px);
+//     opacity: 0;
+//   }
+// }
 
 //About Me
 
