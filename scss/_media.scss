@@ -11,6 +11,16 @@
   }
 }
 
+@media (max-width: 1005px) {
+  #about-me {
+    .bio-info {
+      .bio {
+        overflow: scroll !important;
+      }
+    }
+  }
+}
+
 @media (max-width: 768px) {
   #header-home {
     .header-content {

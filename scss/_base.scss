@@ -152,7 +152,7 @@ img {
 
       border-left: 3px solid $main-color;
       box-sizing: border-box;
-      overflow: scroll;
+      overflow: hidden !important;
 
       p {
         text-align: left !important;
